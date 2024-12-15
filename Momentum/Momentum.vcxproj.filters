@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="InertiaEngine\src\vector3.cpp">
+    <ClCompile Include="FocusEngine\src\prova.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

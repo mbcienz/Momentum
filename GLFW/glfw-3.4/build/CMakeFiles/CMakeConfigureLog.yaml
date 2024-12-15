@@ -1,0 +1,325 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Versione di MSBuild 17.11.2+c078802d4 per .NET Framework
+      Compilazione avviata 15/12/2024 11:24:40.
+      
+      Progetto "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\3.31.2\\CompilerIdC\\CompilerIdC.vcxproj" sul nodo 1 (destinazioni predefinite).
+      PrepareForBuild:
+        Creazione directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creazione directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creazione di "Debug\\CompilerIdC.tlog\\unsuccessfulbuild". Ãˆ stato specificato "AlwaysCreate".
+        Aggiornamento timestamp di "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\3.31.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Eliminazione del file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" in corso.
+        Aggiornamento timestamp di "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Compilazione progetto "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\3.31.2\\CompilerIdC\\CompilerIdC.vcxproj" (destinazioni predefinite) completata.
+      
+      Compilazione completata.
+          Avvisi: 0
+          Errori: 0
+      
+      Tempo trascorso 00:00:01.10
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/3.31.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-ghmkjq"
+      binary: "C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-ghmkjq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-ghmkjq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_16821.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versione di MSBuild 17.11.2+c078802d4 per .NET Framework
+        Compilazione avviata 15/12/2024 11:24:42.
+        
+        Progetto "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghmkjq\\cmTC_16821.vcxproj" sul nodo 1 (destinazioni predefinite).
+        PrepareForBuild:
+          Creazione directory "cmTC_16821.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creazione directory "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghmkjq\\Debug\\".
+          Creazione directory "cmTC_16821.dir\\Debug\\cmTC_16821.tlog\\".
+        InitializeBuildStatus:
+          Creazione di "cmTC_16821.dir\\Debug\\cmTC_16821.tlog\\unsuccessfulbuild". Ãˆ stato specificato "AlwaysCreate".
+          Aggiornamento timestamp di "cmTC_16821.dir\\Debug\\cmTC_16821.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16821.dir\\Debug\\\\" /Fd"cmTC_16821.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16821.dir\\Debug\\\\" /Fd"cmTC_16821.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghmkjq\\Debug\\cmTC_16821.exe" /INCREMENTAL /ILK:"cmTC_16821.dir\\Debug\\cmTC_16821.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-ghmkjq/Debug/cmTC_16821.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-ghmkjq/Debug/cmTC_16821.lib" /MACHINE:X64  /machine:x64 cmTC_16821.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_16821.vcxproj -> C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghmkjq\\Debug\\cmTC_16821.exe
+        FinalizeBuildStatus:
+          Eliminazione del file "cmTC_16821.dir\\Debug\\cmTC_16821.tlog\\unsuccessfulbuild" in corso.
+          Aggiornamento timestamp di "cmTC_16821.dir\\Debug\\cmTC_16821.tlog\\cmTC_16821.lastbuildstate".
+        Compilazione progetto "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghmkjq\\cmTC_16821.vcxproj" (destinazioni predefinite) completata.
+        
+        Compilazione completata.
+            Avvisi: 0
+            Errori: 0
+        
+        Tempo trascorso 00:00:01.06
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-68da26"
+      binary: "C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-68da26"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-68da26'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1e713.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versione di MSBuild 17.11.2+c078802d4 per .NET Framework
+        Compilazione avviata 15/12/2024 11:24:43.
+        
+        Progetto "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68da26\\cmTC_1e713.vcxproj" sul nodo 1 (destinazioni predefinite).
+        PrepareForBuild:
+          Creazione directory "cmTC_1e713.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creazione directory "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68da26\\Debug\\".
+          Creazione directory "cmTC_1e713.dir\\Debug\\cmTC_1e713.tlog\\".
+        InitializeBuildStatus:
+          Creazione di "cmTC_1e713.dir\\Debug\\cmTC_1e713.tlog\\unsuccessfulbuild". Ãˆ stato specificato "AlwaysCreate".
+          Aggiornamento timestamp di "cmTC_1e713.dir\\Debug\\cmTC_1e713.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e713.dir\\Debug\\\\" /Fd"cmTC_1e713.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68da26\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e713.dir\\Debug\\\\" /Fd"cmTC_1e713.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68da26\\src.c"
+          src.c
+        C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68da26\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68da26\\cmTC_1e713.vcxproj]
+        Compilazione progetto "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68da26\\cmTC_1e713.vcxproj" (destinazioni predefinite) NON COMPLETATA.
+        
+        Compilazione NON RIUSCITA.
+        
+        "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68da26\\cmTC_1e713.vcxproj" (destinazione predefinita) (1) ->
+        (destinazione: ClCompile) -> 
+          C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68da26\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68da26\\cmTC_1e713.vcxproj]
+        
+            Avvisi: 0
+            Errori: 1
+        
+        Tempo trascorso 00:00:01.00
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-jsn35k"
+      binary: "C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-jsn35k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-jsn35k'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_de4d6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versione di MSBuild 17.11.2+c078802d4 per .NET Framework
+        Compilazione avviata 15/12/2024 11:24:45.
+        
+        Progetto "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jsn35k\\cmTC_de4d6.vcxproj" sul nodo 1 (destinazioni predefinite).
+        PrepareForBuild:
+          Creazione directory "cmTC_de4d6.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creazione directory "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jsn35k\\Debug\\".
+          Creazione directory "cmTC_de4d6.dir\\Debug\\cmTC_de4d6.tlog\\".
+        InitializeBuildStatus:
+          Creazione di "cmTC_de4d6.dir\\Debug\\cmTC_de4d6.tlog\\unsuccessfulbuild". Ãˆ stato specificato "AlwaysCreate".
+          Aggiornamento timestamp di "cmTC_de4d6.dir\\Debug\\cmTC_de4d6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de4d6.dir\\Debug\\\\" /Fd"cmTC_de4d6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jsn35k\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de4d6.dir\\Debug\\\\" /Fd"cmTC_de4d6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jsn35k\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jsn35k\\Debug\\cmTC_de4d6.exe" /INCREMENTAL /ILK:"cmTC_de4d6.dir\\Debug\\cmTC_de4d6.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-jsn35k/Debug/cmTC_de4d6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-jsn35k/Debug/cmTC_de4d6.lib" /MACHINE:X64  /machine:x64 cmTC_de4d6.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jsn35k\\cmTC_de4d6.vcxproj]
+        Compilazione progetto "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jsn35k\\cmTC_de4d6.vcxproj" (destinazioni predefinite) NON COMPLETATA.
+        
+        Compilazione NON RIUSCITA.
+        
+        "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jsn35k\\cmTC_de4d6.vcxproj" (destinazione predefinita) (1) ->
+        (destinazione: Link) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jsn35k\\cmTC_de4d6.vcxproj]
+        
+            Avvisi: 0
+            Errori: 1
+        
+        Tempo trascorso 00:00:00.96
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-zyxj7b"
+      binary: "C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-zyxj7b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-zyxj7b'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_eb0ac.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versione di MSBuild 17.11.2+c078802d4 per .NET Framework
+        Compilazione avviata 15/12/2024 11:24:46.
+        
+        Progetto "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zyxj7b\\cmTC_eb0ac.vcxproj" sul nodo 1 (destinazioni predefinite).
+        PrepareForBuild:
+          Creazione directory "cmTC_eb0ac.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creazione directory "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zyxj7b\\Debug\\".
+          Creazione directory "cmTC_eb0ac.dir\\Debug\\cmTC_eb0ac.tlog\\".
+        InitializeBuildStatus:
+          Creazione di "cmTC_eb0ac.dir\\Debug\\cmTC_eb0ac.tlog\\unsuccessfulbuild". Ãˆ stato specificato "AlwaysCreate".
+          Aggiornamento timestamp di "cmTC_eb0ac.dir\\Debug\\cmTC_eb0ac.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eb0ac.dir\\Debug\\\\" /Fd"cmTC_eb0ac.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zyxj7b\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eb0ac.dir\\Debug\\\\" /Fd"cmTC_eb0ac.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zyxj7b\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zyxj7b\\Debug\\cmTC_eb0ac.exe" /INCREMENTAL /ILK:"cmTC_eb0ac.dir\\Debug\\cmTC_eb0ac.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-zyxj7b/Debug/cmTC_eb0ac.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Asus/Downloads/glfw-3.4/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-zyxj7b/Debug/cmTC_eb0ac.lib" /MACHINE:X64  /machine:x64 cmTC_eb0ac.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zyxj7b\\cmTC_eb0ac.vcxproj]
+        Compilazione progetto "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zyxj7b\\cmTC_eb0ac.vcxproj" (destinazioni predefinite) NON COMPLETATA.
+        
+        Compilazione NON RIUSCITA.
+        
+        "C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zyxj7b\\cmTC_eb0ac.vcxproj" (destinazione predefinita) (1) ->
+        (destinazione: Link) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Asus\\Downloads\\glfw-3.4\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zyxj7b\\cmTC_eb0ac.vcxproj]
+        
+            Avvisi: 0
+            Errori: 1
+        
+        Tempo trascorso 00:00:00.97
+        
+      exitCode: 1
+...
